@@ -1,8 +1,22 @@
 # Changelog
 
-## v1.3.1
+## v1.4.1
 
-WIP
+Bugfixes:
+
+- Fix QCommandLinkbutton icon size
+
+## v1.4.0
+
+New features:
+
+- Add tristate mode to `Switch` (#93).
+
+Bugfixes:
+
+- Fix antialiased carret in text fields. It is now always aligned to pixel grid (by @anydream).
+- Fix memory leak for the `FlashActionHelper` (by @thierryba).
+- Fix `QTabBar` scroll buttons enabled state (by @christophe-thiery-fw).
 
 ## v1.3.0
 
@@ -16,8 +30,7 @@ Bugfixes:
 
 - Fix `Popover`'s drop shadow and position pixel ratios on high-DPI screens.
 - Fix returned `QAction` by `QMenu::exec` (by @thierryba).
-- Fix missing border positions for `QToolBar` (by Иванов Павел Геннадьевич
-  ).
+- Fix missing border positions for `QToolBar` (by Иванов Павел Геннадьевич).
 - Fix loss `Popover` binding on multiscreen (by @polamedev).
 - Fix loop animation restart when it is stopped (by @polamedev).
 
