@@ -1,12 +1,12 @@
 option(
     'build_sandbox',
     type: 'boolean',
-    value: false,
+    value: true,
     description: 'Build sandbox',
 )
 option(
     'build_showcase',
     type: 'boolean',
-    value: false,
+    value: true,
     description: 'Build showcase',
 )

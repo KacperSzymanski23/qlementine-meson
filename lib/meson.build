@@ -68,7 +68,7 @@ headers = files(
     'include/oclero/qlementine/widgets/RoundedFocusFrame.hpp',
     'include/oclero/qlementine/widgets/StatusBadgeWidget.hpp',
     'include/oclero/qlementine/widgets/Switch.hpp',
-    'src/style/EventFilters.hpp',
+    'src/style/eventFilters/WidgetWithFocusFrameEventFilter.hpp',
 )
 
 qrc = files(
